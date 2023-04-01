@@ -1,6 +1,7 @@
+# Instructions for Git
+---
 ![windows](https://img.shields.io/powershellgallery/p/Read.md?label=Windows&logo=windows&style=social) ![git](https://img.shields.io/pypi/pyversions/gita?color=red&label=Git&logo=Git)
 
-# Instructions for Git
  - *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.*
 ![Screenshot-4.jpg](https://i.postimg.cc/J7FHG66x/Screenshot-4.jpg)
 ##### *Instructions on how to use Git:*  
