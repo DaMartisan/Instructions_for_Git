@@ -14,5 +14,4 @@ _Replace "Your Name" with your Git username._
 
 3. Enter the command to set the Git email address:
 git config --global user.email "your_email"
-
-_Replace "your_email" with your Git email address._
+_Replace "your-email" with your Git email address._
