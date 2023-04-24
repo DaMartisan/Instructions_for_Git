@@ -27,12 +27,22 @@ _You can specify your default editor instead of "nano", such as "notepad" or "vi
 ##### A dictionary of Git commands that you can use in the console after installation:
 
     git init - создание нового локального репозитория
-    git clone <url> - клонирование удаленного репозитория на локальный компьютер
-    git add <filename> - добавление файла в индекс для последующего коммита
-    git commit -m "commit message" - создание нового коммита с указанным сообщением
     git status - отображение текущего состояния репозитория и списка измененных файлов
-    git push - отправка локальных изменений в удаленный репозиторий
-    git pull - загрузка изменений из удаленного репозитория на локальный компьютер
-    git branch - отображение списка веток в локальном репозитории
+    git add <filename> - добавление файла в индекс для последующего коммита *git add .*
+    git commit -m "commit message" - создание нового коммита с указанным сообщением
+    git log - отображение коммитов
+    git checkout <commit hash> переход опред. коммиту
     git checkout <branch name> - переключение на указанную ветку
-    git merge <branch name> - объединение текущей ветки с указанной веткой
+    git checkout <branch hash> переход опред. ветку
+    *. git checkout - b <branch name> Создание и сразу переход на ветку*
+    git branch - Отображает список веток
+    git branch -m <new branch name>
+    git branch -d <new branch name> Удаление ветки, НО удалить текущею нельзя
+    git merge <feature branch name> 
+    *Слияние другой ветки (feature branch) в текущую ветку (receiving  branch)*
+    git clone <url> Клонирование удаленного репозитория в локальный
+    git branch -a = Отображает все ветки + те которые в удаленных репозиториях
+    git pull - загрузка изменений из удаленного репозитория на локальный компьютер
+    git push - отправка локальных изменений в удаленный репозиторий
+    git remote add origin <url> = Подключения удаленного репозитория "origin - имя (можно любое)"
+    git push -u origin <branch> Загрузка изменения из лок.ветки в удал. с созданием связи между ними
